@@ -1,0 +1,93 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    background: linear-gradient(315deg, #bed876, #54cbe6);
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+h1{
+    color: #364537; 
+    text-align: center;
+    margin-bottom: 0.5em; 
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container .box{
+    width: 100%; 
+    display: flex;
+}
+
+.box div{
+    display: block;
+    width: 100%;
+    margin: 3px; 
+}
+
+select{
+    display: flex;
+    width: 95%; 
+    height: 40px;
+    font-size: 1.4em;
+    font-weight: 500;
+    background: #217c708e;
+    color: black; 
+    margin: 0.1em;
+    border-radius: 10px;
+    border: none; 
+}
+
+input{
+    width: 100%;
+    height: 40px; 
+    font-size: 1.2em; 
+    margin: 0.2em 0;
+    border-radius: 10px; 
+    background: #cccccc; 
+    outline: none; 
+    padding: 0 1em; 
+}
+
+.currency-label{
+    display: flex; 
+    justify-content: center;
+    height: 40px; 
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    background: #805d988e;
+    outline: none; 
+    color: black; 
+    margin: 0.2em 0;
+    padding: 0.3em 1em; 
+    border-radius: 10px;
+}
+
+.result{
+    width: 100%; 
+    height: 40px;
+    font-size: 1.4em;
+    margin-top: 7px;
+    border-radius: 10px; 
+    background: #cccccc;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Currency converter app</title>
+    <link rel="stylesheet" href="curr.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Currency Converter</h1>
+    <div class="box">
+        <div class="first-box">
+            <select name="currency" class="currency" id="input-currency">
+                <option value="KZT">KZT</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="input-value"> 
+        </div>
+        <div class="second-box">
+            <div class="currency-label">KZT</div>
+            <div id="kzt-result" class="result"></div>
+            <div></div>
+        </div>
+        <div class="third-box">
+            <div class="currency-label">USD</div>
+            <div id="usd-result" class="result"></div> 
+        </div>
+        <div class="fourth-box">
+            <div class="currency-label">EUR</div>
+            <div id="eur-result" class="result"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
